@@ -1,4 +1,31 @@
-@media(min-width: 992px) {
+@media(min-width: 768px) {
+
+    .cards{
+        &__box {
+            padding: 10em 2em;
+        }
+
+        &__card {
+            grid-template-rows: 120px;
+            
+
+            &--one {
+                grid-row: 1/2;
+                grid-column: 1/4;
+            }
+
+            &--two{
+                grid-row:1/2;
+                grid-column: 4/7;
+            }
+
+            &--three {
+                grid-row:1/2;
+                grid-column:7/10;
+            }
+        }
 
     
+    
+    }
 }
